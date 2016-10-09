@@ -6,8 +6,10 @@
 
 using namespace std;
 
-std::string filename = ".input";
-void Student::setS(int _id, string _name, string _address, string _gender, float _math, float _chem, float _phys, int _schoolid) {
+std::string schoolid = "AAA";
+
+std::string filename = schoolid + ".input";
+void Student::setS(int _id, string _name, string _address, string _gender, float _math, float _chem, float _phys, string _schoolid) {
 
 	id = _id;
 	name = _name;

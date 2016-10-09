@@ -17,10 +17,10 @@ public:
 	float chem;
 	float phys;
 	float sum = math + chem + phys;
-	int schoolid;
+	string schoolid;
 	string filename;
 
-	void setS(int, string, string, string, float, float, float, int); // lưu sinh viên vào mảng sinh viên
+	void setS(int, string, string, string, float, float, float, string); // lưu sinh viên vào mảng sinh viên
 
 	void getS(); // in thông tin sinh viên ra màn hình
 
